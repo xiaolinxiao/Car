@@ -56,7 +56,7 @@ public class PreciseWarrantyActivity extends BaseActivity implements View.OnClic
                 startActivity(new Intent(this, FaultTypeActivity.class));
                 break;
             case R.id.precise_rl_location:
-                startActivity(new Intent(this,LocationActivity.class));
+//                startActivity(new Intent(this,LocationActivity.class));
                 break;
         }
 
