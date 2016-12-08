@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">Car</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!--下标 -->
+    <string name="home_page">首页</string>
+    <string name="me">我</string>
+
+    <!-- home page -->
+    <string name="address">厦门</string>
+    <string name="ic_logo">易工</string>
+    <string name="message">易工拥有26566565名维修工，以及详细充足的资源</string>
+    <string name="resource">提供资源</string>
+    <string name="wealth">我的财富</string>
+    <string name="knowledge">知识库</string>
+    <string name="mymessage">我的消息</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- me page -->
+    <string name="cumulative_return">累计返回</string>
+    <string name="loginow">立即登录</string>
+    <string name="payment_record">代付记录</string>
+    <string name="credit_amount">授信金额</string>
+    <string name="bank_card">银行卡</string>
+    <string name="my_repair">我的维修</string>
+    <string name="customer_service">一键售后</string>
+    <string name="collection_articles">收藏文章</string>
+    <string name="my_invitation">我的邀请</string>
+    <string name="my_resources">我提供的资源</string>
+    <string name="my_car">我的车子</string>
+    <string name="scan">扫一扫</string>
+    <string name="my_workers">我的维修工</string>
+    <string name="worker_blacklist">维修工黑名单</string>
+    <string name="about_we">关于我们</string>
+    <string name="feedback">意见反馈</string>
+    <string name="service_hotline">客服热线</string>
+    <string name="service_phone">400-3545-2661</string>
+    <!--工程-->
+    <string name="title_activity_project">ProjectActivity</string>
+    <string name="project">工程</string>
+    <string name="item_time">发布时间:  </string>
+    <string name="item_itemexample">2016-05-05 12:29</string>
+    <string name="item_address">位置:</string>
+    <string name="item_addressexample">马兰山马兰山马兰山</string>
+    <string name="item_cycle">周期:</string>
+    <string name="item_cycleexample">2016/05/05 - 2017/05/05</string>
+    <string name="item_worknum">所需工人数量:</string>
+    <string name="item_worknumexample">12345</string>
+    <string name="item_carnumexample">2333</string>
+    <string name="item_carnum">所需车辆数量:</string>
+    <string name="title_activity_project_detail">ProjectDetailActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <!--工程详情-->
+    <string name="projectdetail_title">工程详情</string>
+    <string name="projectdetail_address">工程所在地:</string>
+    <string name="projectdetail_addressexample">福建省厦门市湖里区南山路189之12</string>
+    <string name="projectdetail_time">工程周期</string>
+    <string name="projectdetail_starttime">开始时间:</string>
+    <string name="projectdeta_starttimeexample">2016-02-15</string>
+    <string name="projectdeta_endtime">结束时间:</string>
+    <string name="projectdetai_timeexample">2016-11-12</string>
+    <string name="projectdetail_workernum">所需工人数</string>
+    <string name="projectdetail_wokernumexample">123456人</string>
+    <string name="projectdetail_carnum">所需车辆数</string>
+    <string name="projectdetail_carnumexample">345623辆</string>
+    <string name="projectdetail_describe">描述</string>
+    <string name="projectdetail_describeexample">Lorem ipsum asdfadf dsfa asdfljg p09ie [ki oiup- [i p[9 hiup pu poiupoi oiupo uou [u oiop oi o oipuop iuoyadfug asidfadfj ewrau nareifau;odfa l;a hiasdfauisdrfyaw asdlfjapdfas;sdjf8saidgfkd asdfj;as kf a;jgfioafg;a sodfjds ogh.</string>
+    <string name="projectdetail_contacts">吴再填（联系人）</string>
+    <!--找司机-->
+    <string name="title_activity_find_car">FindCarActivity</string>
+    <string name="findcar_search">搜索</string>
+    <string name="findcardriver_age">驾龄:</string>
+    <string name="findcardriver_ageexample">3年</string>
+    <string name="sex_man">男</string>
+    <string name="findcardriver_distance">1.2km</string>
+    <string name="title_activity_cardriver_detail">CardriverDetailActivity</string>
+    <string name="cardriver_nameexample">张霞为</string>
+    <string name="cardetail">车辆详情</string>
+    <string name="driverstyleexample">装载机-厦工-XG2323D</string>
+    <string name="title_activity_find_worker">FindWorkerActivity</string>
+    <string name="engine">发动机</string>
+    <string name="transmissioncase">变速箱</string>
+    <string name="bridge">桥</string>
+    <string name="electricalsystem">电器系统</string>
+    <string name="tyre">轮胎</string>
+    <string name="electricappliance">电器系</string>
+    <string name="searchdriver">找司机</string>
+    <!--维修工-->
+    <string name="disconutexample">1.9km</string>
+    <string name="workednum">已接单12223单</string>
+    <string name="title_activity_worker_detail">WorkerDetailActivity</string>
+    <string name="seenumexample">已有88888人浏览</string>
+    <string name="follownumexample">7784</string>
+    <string name="follownum">关注人数</string>
+    <string name="repairnumexample">17383</string>
+    <string name="repair">维修量</string>
+    <string name="begoodatexample">擅长:Losfsdaf sdfakl sdfa asdfal asdfk akhsdf a asdflaher dsfj lkafdhga kladf asdfline adsfhjbadf nklkdf asdf了 ljkl ；lk jkjgh.3</string>
+    <string name="introduction">简介:Losfsdaf sdfakl sdfa asdfal asdfk akhsdf a asdflaher dsfj lkafdhga kladf asdfline adsfhjbadf nklkdfjkasdf asdf asdfq sdfghs sdfgnfg.</string>
+    <string name="lookmore">查看更多 V</string>
+    <string name="evaluate">评价</string>
+    <string name="tiemexample">2016-05-05</string>
+    <string name="evaluateexample">技术好，服务好</string>
+    <string name="customerexample">张**伟</string>
+    <string name="searchworker">找维修工</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_more_evaluate">MoreEvaluateActivity</string>
+    <string name="guarantee">报修</string>
+    <string name="yirenzheng">[已认证]</string>
+
+    <!--更多评价-->
+    <string name="moreevaluate">更多评价</string>
+    <string name="goodevalute">好评</string>
+    <string name="evalutenum">(234)</string>
+    <string name="normalevalute">中评</string>
+    <string name="badevalute">差评</string>
+
+    <!--找车辆-->
+    <string name="rentV">参考租金V</string>
+    <string name="allstyleV">全部类型V</string>
+    <string name="brandV">全部品牌V</string>
+    <string name="defaultV">默认排序V</string>
+    <string name="rent">参考租金:</string>
+    <string name="rentexample">1400元/月</string>
+    <string name="title_activity_car_detali">CarDetaliActivity</string>
+    <string name="seenumexample_findcar">345人浏览</string>
+    <string name="style">类型</string>
+    <string name="styleexample">装载机</string>
+    <string name="brand">品牌</string>
+    <string name="brandexample">厦工</string>
+    <string name="moduleexample">XG2323D</string>
+    <string name="servicelife">使用年限</string>
+    <string name="servicelifeexample">3年</string>
+    <string name="carinaddress">车辆所在地</string>
+    <string name="caraddressexample">福建 厦门 湖里</string>
+
+    <!--一键保修-->
+    <string name="title_activity_guarantee">GuaranteeActivity</string>
+    <string name="jinquebaoxiu">精确保修</string>
+    <string name="yijianbaoxiu">一键保修</string>
+    <string name="title_activity_designated_maintenance">DesignatedMaintenanceActivity</string>
+    <string name="title_activity_cancel_designateactivity">CancelDesignateactivity</string>
+    <string name="title_activity_precise_warranty">PreciseWarrantyActivity</string>
+    <string name ="fault_content">故障描述内容支持语音、文字、图片、视频的传递。已经发送的信息点击长按后可以删除。</string>
+    <string name="location">所在位置</string>
+    <string name="fault_type">故障类型</string>
+    <string name="please_select">请选择</string>
+    <string name="fault_description">故障描述</string>
+    <string name="title_activity_fault_type">FaultTypeActivity</string>
+    <string name="custom">自定义</string>
+    <string name="sure">确定</string>
+    <string name="faulttype_searchhint">请输入故障类型</string>
+    <string name="workernameexample">柳工</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="phonenumber">手机号</string>
+    <string name="pleasescanfphonenum">请输入手机号</string>
+    <string name="password">密     码</string>
+    <string name="pleasescanfpassword">请输入6—20密码</string>
+    <string name="login">登录</string>
+    <string name="register">免费注册</string>
+    <string name="forgetpassword">忘记密码</string>
+    <string name="thirdpartylogin">第三方登录</string>
+    <string name="weixinlogin">微信登录</string>
+    <string name="qqlogin">QQ登录</string>
+    <string name="title_activity_regist">RegistActivity</string>
+</resources>

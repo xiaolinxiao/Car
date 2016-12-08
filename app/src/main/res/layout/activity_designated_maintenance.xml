@@ -1,0 +1,190 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lx.car.car.DesignatedMaintenanceActivity">
+
+    <include
+        android:id="@+id/include6"
+        layout="@layout/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout15"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/include6"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/textView114"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="您的维修申请已提交，等待处理。" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout15"
+        android:background="@color/gray_me" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout16"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView115"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/ic_touxiang" />
+
+        <TextView
+            android:id="@+id/textView116"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView117"
+            android:layout_toStartOf="@+id/textView117"
+            android:text="@string/cardriver_nameexample" />
+
+        <TextView
+            android:id="@+id/textView117"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="（已接单1101）"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView118"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView116"
+            android:layout_centerVertical="true"
+            android:text="发动机 桥 轮胎..." />
+
+        <view
+            android:id="@+id/view3"
+            class="com.lx.car.view.RatingBarView"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignBottom="@+id/imageView25"
+            android:layout_alignStart="@+id/textView118"
+            android:columnCount="5"
+            app:starEmpty="@drawable/ic_xingxing"
+            app:starFill="@drawable/ic_xingxing_yellow" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/ic_dianhua_weixiu" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView119"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout16"
+        android:background="@color/gray_me" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout17"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView119"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/textView120"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:text="维修编号:" />
+
+        <TextView
+            android:id="@+id/textView121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView120"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/textView120"
+            android:text="456456123789" />
+
+        <TextView
+            android:id="@+id/textView122"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView120"
+            android:layout_below="@+id/textView120"
+            android:layout_marginTop="14dp"
+            android:text="保修时间:" />
+
+        <TextView
+            android:id="@+id/textView123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView122"
+            android:layout_toEndOf="@+id/textView122"
+            android:text="@string/item_itemexample" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/ic_xiaosanjiao_me" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView124"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout17"
+        android:background="@color/gray_me" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/designate_btn_cancel"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/btn_normalyellow_select"
+            android:text="撤销维修"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

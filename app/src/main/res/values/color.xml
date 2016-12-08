@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="black">#000000</drawable>
+    <drawable name="yellow">#EEC211</drawable>
+
+    <color name="white">#ffffff</color>
+    <color name="gray">#55cdcdcd</color>
+    <color name="gray_me">#cdcdcd</color>
+    <color name="blue">#3171b3</color>
+    <color name="deep_yellow">#eca400</color>
+    <color name="yellow">#EEC211</color>
+    <color name="red_light">#ffff4444</color>
+    <color name="translucent">#ebeef2</color>
+    <color name="deep_gray">#949494</color>
+
+</resources>

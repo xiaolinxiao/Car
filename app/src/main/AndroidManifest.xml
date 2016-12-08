@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lx.car.car" >
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="ckN2HNmL8kDGwceLBMTV1Owd9G3s2aKm" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProjectActivity"
+            android:label="@string/title_activity_project" />
+        <activity
+            android:name=".ProjectDetailActivity"
+            android:label="@string/title_activity_project_detail" />
+        <activity
+            android:name=".BaseActivity"
+            android:label="@string/title_activity_base" />
+        <activity
+            android:name=".FindCardriverActivity"
+            android:label="@string/title_activity_find_car" />
+        <activity
+            android:name=".CardriverDetailActivity"
+            android:label="@string/title_activity_cardriver_detail" />
+        <activity
+            android:name=".FindWorkerActivity"
+            android:label="@string/title_activity_find_worker" />
+        <activity
+            android:name=".WorkerDetailActivity"
+            android:label="@string/title_activity_worker_detail" />
+        <activity
+            android:name=".MoreEvaluateActivity"
+            android:label="@string/title_activity_more_evaluate" />
+        <activity
+            android:name=".FindCarActivity"
+            android:label="@string/title_activity_find_car" />
+        <activity
+            android:name=".CarDetaliActivity"
+            android:label="@string/title_activity_car_detali" />
+        <activity
+            android:name=".GuaranteeActivity"
+            android:label="@string/title_activity_guarantee" />
+        <activity
+            android:name=".DesignatedMaintenanceActivity"
+            android:label="@string/title_activity_designated_maintenance" />
+        <activity
+            android:name=".CancelDesignateActivity"
+            android:label="@string/title_activity_cancel_designateactivity" />
+        <activity
+            android:name=".PreciseWarrantyActivity"
+            android:label="@string/title_activity_precise_warranty" />
+        <activity
+            android:name=".FaultTypeActivity"
+            android:label="@string/title_activity_fault_type" />
+        <activity
+            android:name=".LocationActivity"
+            android:label="@string/title_activity_location" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".RegistActivity"
+            android:label="@string/title_activity_regist" >
+        </activity>
+    </application>
+
+</manifest>

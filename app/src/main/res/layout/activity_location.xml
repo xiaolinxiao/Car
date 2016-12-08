@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lx.car.car.LocationActivity">
+
+    <include
+        layout="@layout/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/include10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/mybutton1"
+        android:layout_below="@+id/include10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/mybutton2"
+        android:layout_below="@+id/mybutton1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp" />
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lx.car.car.FaultTypeActivity">
+
+    <include
+        android:id="@+id/include9"
+        layout="@layout/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout21"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/include9"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/textView137"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:text="@string/custom" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/btn_normalyellow_select"
+            android:text="@string/sure"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@+id/textView137"
+            android:layout_toLeftOf="@id/button2"
+            android:background="@drawable/bg_sousoulan"
+            android:hint="@string/faulttype_searchhint"
+            android:textColorHint="@color/gray_me" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView138"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout21"
+        android:layout_marginTop="5dp"
+        android:background="@color/gray_me" />
+
+    <ListView
+        android:id="@+id/faulttype_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView138"
+        android:divider="@color/white"
+        android:footerDividersEnabled="false" />
+</RelativeLayout>

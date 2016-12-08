@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lx.car.car.FindWorkerActivity">
+
+    <include
+        android:id="@+id/worker_include"
+        layout="@layout/layout_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <HorizontalScrollView
+        android:id="@+id/worker_scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/worker_include"
+        android:fillViewport="false"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/worker_text_engine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/engine" />
+
+            <TextView
+                android:id="@+id/worker_text_transmission"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/transmissioncase" />
+
+            <TextView
+                android:id="@+id/worker_text_bridge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/bridge" />
+
+            <TextView
+                android:id="@+id/worker_text_electrical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/electricalsystem" />
+
+            <TextView
+                android:id="@+id/worker_text_tyre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/tyre" />
+
+            <TextView
+                android:id="@+id/worker_text_electricappliance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/electricappliance" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/worker_text_slide"
+        android:layout_width="50dp"
+        android:layout_height="2dp"
+        android:maxLength="25"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/worker_scrollView"
+        android:background="@color/deep_yellow" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/worker_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/worker_text_slide" />
+
+</RelativeLayout>
